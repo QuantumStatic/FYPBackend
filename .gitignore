@@ -1,3 +1,10 @@
 # .DS_store
 .DS_Store
 *.DS_Store
+
+# json
+.json
+*.json
+
+#python
+*.pyc
