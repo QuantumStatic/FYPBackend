@@ -7,7 +7,7 @@ class CacheManager:
 
     _DataStorageObjs: set[str] = set()
 
-    def __init__(self, path:str = "cache_data"):
+    def __init__(self, path:str):
 
         if path not in CacheManager._DataStorageObjs:
             self.path = r"{}".format(path)
